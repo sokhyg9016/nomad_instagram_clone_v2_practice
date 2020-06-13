@@ -1,4 +1,4 @@
-# Kakao clone coding practice
+# Instagram clone coding practice
 
 2020-06-13 작성
 
