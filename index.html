@@ -33,35 +33,29 @@
     </header>
 
     <main class="feeds" role="main">
-        <ul class="feeds__story-list">
-            <li class="feeds__story-item">
-                <button class="story__btn">
-                    <span class="story__profile">
-                        <img alt="" class="_6q-tv" draggable="false"
-                            src="https://instagram.fopo3-2.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fopo3-2.fna.fbcdn.net&amp;_nc_ohc=rwWGQ6X4qT4AX9wzPE_&amp;oh=dedec85ea9bb562dcf03697214208be9&amp;oe=5F0FB80F&amp;ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2">
-                    </span>
-                    <div class="story__name">Your story</div>
-                </button>
-            </li>
-            <!-- <li class="feeds__story-item">
-                <button class="story__btn">
-                    <span class="story__profile">
-                       <img alt="vibe.official.kr's profile picture" class="_6q-tv" draggable="false"
-                           src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/66175953_451705558895546_2067384590988738560_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_ohc=VJrzXKv-SpIAX__iUVr&amp;oh=c305bfa785de45d77b7a1a040e3dc71b&amp;oe=5F0D7272">
-                    </span>
-                    <div class="story__name">NAVER VIBE</div>
-                </button>
-            </li> -->
-        </ul>
         <div class="feeds__column">
-            <div class="feeds__article-list">
+            <ul class="feeds__story-list">
+                <li class="feeds__story-item">
+                    <button class="story__btn">
+                        <span class="story__profile">
+                            <img alt="" class="_6q-tv" draggable="false"
+                                src="https://instagram.fopo3-2.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fopo3-2.fna.fbcdn.net&amp;_nc_ohc=rwWGQ6X4qT4AX9wzPE_&amp;oh=dedec85ea9bb562dcf03697214208be9&amp;oe=5F0FB80F&amp;ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2">
+                        </span>
+                        <div class="story__name">Your story</div>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="feeds__column">
+            <div class="feeds__articles">
 
                 <!-- 피드 게시물 -->
-                <article class="feeds__article-item">
+                <article class="feeds__article">
                     <header class="article__header">
                         <div class="article__header-column">
                             <span class="article__header-profile">
-                                
+                                <img alt="naver_clova's profile picture" class="_6q-tv" draggable="false"
+                                    src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s150x150/93082435_514022629275076_4478090940426223616_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_ohc=hgWOrg3k6nIAX9V3sKJ&amp;oh=1112301b4b6db46f8701167f3a073fef&amp;oe=5F139F45">
                             </span>
                         </div>
                         <div class="article__header-column">
@@ -73,7 +67,7 @@
                     </header>
 
                     <!-- 게시문 메인 사진 섹션 -->
-                    <div class="article__img">
+                    <div class="article__thumbnail">
                         <img alt="Photo by NAVER CLOVA on May 29, 2020. Image may contain: text" class="FFVAD"
                             decoding="auto" sizes="360px"
                             srcset="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/100996115_377884189862607_2516714074642131924_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=103&amp;_nc_ohc=utSxFzMI7G4AX_GYo2v&amp;oh=e70b1213e8819878e292e999a7a64550&amp;oe=5F0DBC6F 640w,https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/100996115_377884189862607_2516714074642131924_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=103&amp;_nc_ohc=utSxFzMI7G4AX_GYo2v&amp;oh=7e65f3ed117ff26151399b6c2de52cc4&amp;oe=5F0E642B 750w,https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/100996115_377884189862607_2516714074642131924_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&amp;_nc_cat=103&amp;_nc_ohc=utSxFzMI7G4AX_GYo2v&amp;se=7&amp;oh=6f2b4cffe96c64bfffb150226ce8ddb5&amp;oe=5F0CA6D5 1080w"
@@ -81,42 +75,42 @@
                             style="object-fit: cover;">
                     </div>
 
-                    <div class="article__infor">
+                    <div class="article__content">
                         <!-- 아이콘 리스트들 -->
-                        <section class="article__icon-list">
-                            <span class="article__icon-item">
+                        <section class="article__content-icons">
+                            <span class="article__content-icon">
                                 <button><i class="fas fa-home"></i></button>
                             </span>
-                            <span class="article__icon-item">
+                            <span class="article__content-icon">
                                 <button><i class="fas fa-home"></i></button>
                             </span>
-                            <span class="article__icon-item">
+                            <span class="article__content-icon">
                                 <button><i class="fas fa-home"></i></button>
                             </span>
-                            <span class="article__icon-item">
+                            <span class="article__content-icon">
                                 <button><i class="fas fa-home"></i></button>
                             </span>
                         </section>
 
                         <!-- 좋아요 카운트 섹션 -->
-                        <section class="article__like">
+                        <section class="article__content-like">
                             <span>768 likes</span>
                         </section>
 
                         <!-- 코멘트 섹션 -->
-                        <div class="article__comments">
+                        <div class="article__content-comments">
                             <!-- 작성자 코멘트 섹션 -->
-                            <div class="article__comments-author">
+                            <div class="article__author">
                                 <span class="author__name">naver_clova</span>&nbsp;
-                                <span>... more</span>
+                                <span class="autohr__detail">... more</span>
                             </div>
 
                             <!-- 댓글 섹션 -->
-                            <div class="article__comments-other">
-                                <div class="article__comments-other-item">
-                                    <div class="other__comments">
+                            <div class="article__others">
+                                <div class="article__other">
+                                    <div class="other__content">
                                         <span class="other__name">mein_jjj</span>&nbsp;
-                                        <span class = "other__detail">
+                                        <span class = "other__comment">
                                             온라인 수업영상에 잘 활용하고 있어요. 목소리를 바꿔가며 대화형식으로도 만들어보고 강의 끝날때 환호 소리를 넣어 학생들의 집중도를 높일 수
                                             있었습니다. 감사합니다!!😘👍
                                         </span>
@@ -125,11 +119,10 @@
                                         <i class="far fa-heart"></i>
                                     </div>
                                 </div>
-
-                                <div class="article__comments-other-item">
-                                    <div class="other__comments">
+                                <div class="article__other">
+                                    <div class="other__content">
                                         <span class="other__name">amazar_kr</span>&nbsp;
-                                        <span class="other__detail">
+                                        <span class="other__comment">
                                             맞팔해용😊
                                         </span>
                                     </div>
@@ -141,7 +134,7 @@
                         </div>
 
                         <!-- 게시물 업로드 날짜 -->
-                        <div class="article__date">
+                        <div class="article__content-time">
                             <span><time class="_1o9PC Nzb55" datetime="2020-05-29T07:11:30.000Z" title="May 29, 2020">May 29</time></span>
                         </div>
                     </div>
